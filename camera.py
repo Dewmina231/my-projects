@@ -1,3 +1,8 @@
+
+#This program asks the user if they want to take a video or a photo and i does so accordingly
+#I built this on a rasberry pi 4 
+
+
 from picamera import PiCamera
 import time as t
 
