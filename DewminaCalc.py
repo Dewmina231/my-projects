@@ -1,9 +1,9 @@
 
-
+#import library
 from tkinter import *
 
 
-
+#setup
 window = Tk()
 
 window.title('Calculator')
@@ -18,6 +18,7 @@ expresion = ''
 
 operators = ["+","-","*","/"]
 
+#functions for keys
 def pressBackspace():
     global expresion
 
@@ -61,7 +62,7 @@ def clear():
     global expresion
     expresion=''
     label.config(text=expresion)
-
+#sets up the calcultor itself
 label = Label(window,text = expresion, height = 3, width = 4*btn_w+5)
 label.grid(column=0, row=0,columnspan=4, rowspan=1)
 
@@ -149,7 +150,7 @@ btn.grid(column= 3, row=6)
 
 
 
-
+#loops until x is pressed
 
 
 
