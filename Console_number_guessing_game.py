@@ -1,14 +1,16 @@
+
+#librarie
 import random as r
 import time as t
 
-
+#variables
 yop = True
 x = r.randint(1, 99)
 guesses = 10
 
 
 
-
+#functions
 def ag():
     global yop
     global x
